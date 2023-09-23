@@ -48,4 +48,4 @@ This project was created as a demonstration of password strength checking using 
 
 ## Visit the Project
 
-[Visit the Password Strength Checker]()
+[Visit the Password Strength Checker](https://sukumarmali.github.io/Password-Strength-Checker/)
