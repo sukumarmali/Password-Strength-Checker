@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New';
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{
+    color:black;
+    position: absolute;
+    top: 10%;
+}
+
+#passwordStrength {
+
+    font-size: 28px;
+    color: yellow;
+    position: absolute;
+    top: 10%;
+    justify-content: center;
+  }
+
+.container {
+    height: 200px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.inputBox{
+    width: 300px; 
+    height: 40px; 
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputBox:enabled {
+    border: 1px solid black;
+}
+ .btn {
+    width: 100px;
+    height: 40px; 
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid green;
+    border-radius: 20px;
+    display: flex;
+    position: absolute;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .btn:hover{
+    background-color: rgb(184, 228, 223);
+ }
